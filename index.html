@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troy's Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div><img class="clock-one" src="img/clock.png" alt="alarm-clock-icon"></div>
+    <div class="container">
+        <h1 id="clock"></h1>
+        <select name="hour" id="hour"></select>
+        <select name="minute" id="minute"></select>
+        <select name="second" id="second"></select>
+        <select name="ampm" id="ampm">
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+        </select>
+
+        <!--<input type="datetime-local" id=alarmTime
+            name="alarmTime">-->
+
+
+        <button id="set">Set Alarm</button>
+    </div>  
+    <div><img class="clock-two" src="img/clock.png" alt="alarm-clock-icon"></div>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
